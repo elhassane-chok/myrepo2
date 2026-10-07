@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#1E2C4E"/>
+      <stop offset="100%" stop-color="#16233F"/>
+    </radialGradient>
+    <mask id="cut">
+      <rect x="0" y="0" width="512" height="512" fill="#ffffff"/>
+      <circle cx="270" cy="213" r="53" fill="#000000"/>
+    </mask>
+    <path id="arcTop" d="M 76 256 A 180 180 0 1 1 436 256"/>
+    <path id="arcBottom" d="M 76 256 A 180 180 0 0 1 436 256"/>
+  </defs>
+
+  <circle cx="256" cy="256" r="252" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#C9A227" stroke-width="3" opacity="0.95"/>
+  <circle cx="256" cy="256" r="232" fill="none" stroke="#C9A227" stroke-width="1" opacity="0.45"/>
+  <circle cx="256" cy="256" r="158" fill="none" stroke="#C9A227" stroke-width="1" opacity="0.35"/>
+
+  <text fill="#EAD9A6" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="27" letter-spacing="6">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">ELHASSANE</textPath>
+  </text>
+  <text fill="#EAD9A6" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="24" letter-spacing="10">
+    <textPath href="#arcBottom" startOffset="50%" text-anchor="middle">STUDIO</textPath>
+  </text>
+
+  <g>
+    <circle cx="256" cy="226" r="62" fill="#C9A227" mask="url(#cut)"/>
+    <path d="M 252 120 L 244.36 137.48 L 225.37 139.35 L 239.64 152.02 L 235.54 170.65 L 252 161 L 268.46 170.65 L 264.36 152.02 L 278.63 139.35 L 259.64 137.48 Z" fill="#C9A227"/>
+  </g>
+
+  <g>
+    <path d="M 256 300 C 240 293.5 216 293.5 198 301 L 198 363 C 216 356.5 240 356.5 256 363 Z" fill="#EAD9A6" stroke="#C9A227" stroke-width="1"/>
+    <path d="M 256 300 C 272 293.5 296 293.5 314 301 L 314 363 C 296 356.5 272 356.5 256 363 Z" fill="#EAD9A6" stroke="#C9A227" stroke-width="1"/>
+    <line x1="256" y1="300" x2="256" y2="363" stroke="#C9A227" stroke-width="2"/>
+  </g>
+</svg>
