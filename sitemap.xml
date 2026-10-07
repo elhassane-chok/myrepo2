@@ -1,19 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://elhassane-chok.github.io/myrepo2/</loc>
+    <loc>https://elhassanestudio.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://elhassane-chok.github.io/myrepo2/books/blooming-beauty.html</loc>
+    <loc>https://elhassanestudio.com/books/blooming-beauty.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://elhassane-chok.github.io/myrepo2/books/timeless-intricacy.html</loc>
+    <loc>https://elhassanestudio.com/books/timeless-intricacy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
+
 
